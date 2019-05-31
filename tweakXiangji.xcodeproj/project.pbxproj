@@ -11,8 +11,6 @@
 		8BE8BE2A22A10B1400794FA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE8BE2922A10B1400794FA9 /* Foundation.framework */; };
 		8BE8BE2C22A10B1400794FA9 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE8BE2B22A10B1400794FA9 /* CydiaSubstrate.framework */; };
 		8BE8BE3522A10B1400794FA9 /* tweakXiangji.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8BE3422A10B1400794FA9 /* tweakXiangji.mm */; };
-		8BE8BE4122A10DB500794FA9 /* ww.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE8BE3F22A10DB500794FA9 /* ww.h */; };
-		8BE8BE4222A10DB500794FA9 /* ww.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE8BE4022A10DB500794FA9 /* ww.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +23,6 @@
 		8BE8BE3322A10B1400794FA9 /* tweakXiangji.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = tweakXiangji.xm; sourceTree = "<group>"; };
 		8BE8BE3422A10B1400794FA9 /* tweakXiangji.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = tweakXiangji.mm; sourceTree = "<group>"; };
 		8BE8BE3922A10B1400794FA9 /* tweakXiangji.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = tweakXiangji.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/tweakXiangji.plist; sourceTree = "<group>"; };
-		8BE8BE3F22A10DB500794FA9 /* ww.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ww.h; sourceTree = "<group>"; };
-		8BE8BE4022A10DB500794FA9 /* ww.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ww.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +73,6 @@
 				8BE8BE3422A10B1400794FA9 /* tweakXiangji.mm */,
 				8BE8BE2E22A10B1400794FA9 /* Package */,
 				8BE8BE3122A10B1400794FA9 /* Supporting Files */,
-				8BE8BE3F22A10DB500794FA9 /* ww.h */,
-				8BE8BE4022A10DB500794FA9 /* ww.m */,
 			);
 			path = tweakXiangji;
 			sourceTree = "<group>";
@@ -139,7 +133,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE8BE4122A10DB500794FA9 /* ww.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE8BE3522A10B1400794FA9 /* tweakXiangji.mm in Sources */,
-				8BE8BE4222A10DB500794FA9 /* ww.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
